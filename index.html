@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>index</title>
+  <link rel="stylesheet" href="../CHAN ZHI EN 2204589/styles/ExternalCSS.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<div class="flex-wrapper">
+<nav class="navbar">
+    <a href="index.html">
+      <img src="images/logo.png" alt="EcoBright Logo">
+    </a>
+  <ul class="nav-links" id="navLinks">
+	  <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="tips & tools.html">Tips & Tools</a></li>
+      <li><a href="more info.html">More Info</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+<body>
+<main>
+<a href="#top">
+        <img src="images/backtotop.png" alt="Back to Top" class="back-to-top">
+    </a>
+<div class="image-container">
+  <img id="displayImage" src="images/index 1.png" alt="EcoBright Banner" class="banner-image">
+	<div class="content">
+           <h1>Bright Ideas</h1>
+		   <pre></pre>
+           <p>begins with<br>
+			   Energy-Efficient Lighting</p><br>
+		<a href="about.html"><img src="images/about button.png" alt="About Button" width="25%"></a>
+    </div>
+<div class="thumbnail-container">
+    <img src="images/light.png" alt="Light Mode" class="thumbnail active" onclick="changeImage('images/index 1.png', this)">
+    <img src="images/dark.png" alt="Dark Mode" class="thumbnail" onclick="changeImage('images/index 2.png', this)">
+  </div>
+	</div>
+<div class="indexcontainer">
+        <div class="left">
+            <div class="indexcontent">
+                <h1>Welcome to EcoBright</h1>
+				<pre></pre>
+                <p>The name <strong>EcoBright</strong> embodies two key concepts: <strong>Eco</strong>, representing environmental sustainability, and <strong>Bright</strong>, symbolizing both lighting and making the right choices. The emphasis on “right” in Bright reinforces our message: In this modern era, do the right thing to save the planet—save lighting energy. <br>
+                In today’s world, where energy consumption is at an all-time high, small changes in our daily habits can create a significant impact. Many people are unaware of the benefits of energy-efficient lighting or how transitioning to LED technology can lead to cost savings, reduced energy usage, and a lower carbon footprint. <br>
+                <strong>EcoBright</strong> aims to bridge this knowledge gap by providing accessible and engaging content that encourages individuals, businesses, and policymakers to take action.<br>
+                Through interactive features, educational resources, and practical guides, this website empowers users to make informed decisions about sustainable lighting. Whether you're looking to reduce electricity bills, minimize environmental impact, or simply learn more about LED lighting, <strong>EcoBright</strong> serves as a comprehensive hub for energy-efficient solutions.</p>
+				<pre></pre>
+				<h1>Vision</h1>
+				<pre></pre>
+                <p><strong>EcoBright</strong> envisions a future where energy-efficient lighting becomes the global standard, reducing energy consumption and minimizing environmental impact. By fostering awareness and accessibility, we aim to create a world where individuals, businesses, and policymakers actively contribute to sustainable energy practices, leading to a cleaner and more eco-friendly planet.</p>
+				<pre></pre> 
+				<h1>Mission</h1>
+				<pre></pre>
+                <p><strong>EcoBright</strong> strives to educate and inform about LED lighting and sustainable energy while encouraging action through practical resources. We promote sustainability by advocating for responsible energy consumption and highlighting its global impact. Through interactive tools and storytelling, we enhance engagement and inspire meaningful change. Our mission is to support collective efforts for a greener future by connecting individuals  with energy conservation initiatives.</p>
+				<pre></pre> 
+				<h1>Quick Access</h1>
+				<pre></pre>
+				<div class="icon-container">
+    <div class="icon-item">
+		<a href="index.html"><img src="images/indexicon.png" alt="HomeIcon"></a>
+        <p>Home</p>
+    </div>
+    <div class="icon-item">
+		<a href="about.html"><img src="images/abouticon.png" alt="AboutIcon"></a>
+        <p>About</p>
+    </div>
+    <div class="icon-item">
+		<a href="tips & tools.html"><img src="images/tipsicon.png" alt="TipsIcon"></a>
+        <p>Tips & Tools</p>
+    </div>
+    <div class="icon-item">
+		<a href="more info.html"><img src="images/moreinfoicon.png" alt="MoreInfoIcon"></a>
+        <p>More Info</p>
+    </div>
+    <div class="icon-item">
+		<a href="contact.html"><img src="images/contacticon.png" alt="ContactIcon"></a>
+        <p>Contact</p>
+    </div>
+    <div class="icon-item">
+        <img src="images/sitemapicon.png" alt="SitemapIcon">
+        <p>SiteMap</p>
+    </div>
+</div>
+            </div>
+        </div>
+        <div class="right">
+            <img src="images/illustrationindexlongimage.png" alt="Sustainable Lighting">
+</div>
+    </div>
+<script>
+    function changeImage(imageSrc, thumbnail) {
+        document.getElementById('displayImage').src = imageSrc;
+                        
+  const thumbnails = document.querySelectorAll('.thumbnail');
+  thumbnails.forEach(thumb => {
+            thumb.classList.remove('active');
+        });
+ thumbnail.classList.add('active');
+           }
+  </script>
+</main>
+<footer>
+    <div class="footer-container">
+        <!-- Left Section: Logo (Links to Homepage) -->
+        <div class="footer-logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="EcoBright Logo">
+            </a>
+        </div>
+
+        <!-- Middle Section: Icons with Text -->
+        <div class="footer-icons">
+            <div class="footericon-item">
+				<a href="index.html"><img src="images/footerindexicon.png" alt="Home"></a>
+                <p>Home</p>
+            </div>
+            <div class="footericon-item">
+				<a href="about.html"><img src="images/footerabouticon.png" alt="About"></a>
+                <p>About</p>
+            </div>
+            <div class="footericon-item">
+				<a href="tips & tools.html"><img src="images/footertipsicon.png" alt="Tips & Tools"></a>
+                <p>Tips & Tools</p>
+            </div>
+            <div class="footericon-item">
+				<a href="more info.html"><img src="images/footermoreinfoicon.png" alt="More Info"></a>
+                <p>More Info</p>
+            </div>
+            <div class="footericon-item">
+				<a href="contact.html"><img src="images/footercontacticon.png" alt="Contact"></a>
+                <p>Contact</p>
+            </div>
+            <div class="footericon-item">
+				<a href="index.html"><img src="images/footersitemapicon.png" alt="Sitemap"></a>
+                <p>SiteMap</p>
+            </div>
+        </div>
+
+        <!-- Right Section: Social Media Icons -->
+        <div class="footer-social">
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="images/whatsapp.png" alt="WhatsApp"></a>
+        </div>
+    </div>
+    <!-- Copyright Text -->
+    <div class="footer-bottom">
+        <p>&copy; 2025 EcoBright. All Rights Reserved.</p>
+    </div>
+</footer>
+</body>
+	</div>
+</html>
